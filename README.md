@@ -57,6 +57,8 @@ By offering a comprehensive range of tools, the Azure OpenAI Service empowers bu
 
 4. **Regulatory Compliance and Industry Standards:** With Azure OpenAI, businesses handling confidential or regulated information benefit from a secure AI environment that adheres to industry compliance standards. Azure’s robust security framework ensures that your AI operations are private, compliant, and protected against unauthorized access, offering peace of mind for operations involving sensitive data.
 
+![Introduction to Azure OpenAI Service](Images/image2.png)
+
 #### Selecting GenAI Models
 
 Selecting the right AI model is essential for effectively meeting specific business needs. Not all models are created equal, so understanding their strengths and aligning them with your objectives is critical for success.
@@ -72,6 +74,8 @@ Applying Azure OpenAI Models to Business Scenarios
 - **GPT-40:** An advanced multimodal model, GPT-40 integrates text, audio, and visual data, enabling sophisticated generative and conversational AI experiences. In customer support, it can combine inputs like text, video, and audio for comprehensive interactions. Its document processing capabilities make it ideal for industries such as legal, finance, or insurance, where it can extract and analyze information from documents containing images and tables. GPT-40 can also produce diverse content formats to cater to different consumer needs.
 
 - **Codex:** The Codex model family excels in coding and complex problem-solving, making it ideal for analytical and development tasks. Codex models are suited for applications requiring deep analysis and workflow automation, such as generating algorithms, writing advanced code, or helping developers streamline technical tasks. Businesses in legal, financial, or strategic sectors can use Codex for examining contracts or reports, identifying subtle differences, and aiding in decision-making processes.
+
+![Introduction to Azure OpenAI Service](Images/image3.png)
 
 #### Introduction to Prompt Engineering Techniques
 
