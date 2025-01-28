@@ -96,6 +96,7 @@ For instance, if you ask, "How's the company doing?" the response may be too bro
 
 **Mastering prompt crafting is essential for guiding AI models to generate valuable and accurate outputs.**
 
+![Introduction to Azure OpenAI Service](Images/image4.png)
 
 ##### Techniques for Effective Prompt Engineering
 
@@ -113,6 +114,8 @@ For instance, if you ask, "How's the company doing?" the response may be too bro
 
 5. **System Messages:** These set the overall behavior and tone of an AI interaction, acting as a foundation for consistency. For instance, a system message could be, “I am Go, a travel enthusiast who helps users find ideal destinations. I’m upbeat and friendly. I introduce myself and ask about travel preferences and accommodations, then provide recommendations followed by questions to refine choices.” This instruction sets the tone and ensures responses align with user expectations.
 
+![Introduction to Azure OpenAI Service](Images/image5.png)
+
 #### Tuning Hyperparameters
 Two hyperparameters, temperature and top P, influence AI outputs:
 
@@ -122,3 +125,4 @@ Two hyperparameters, temperature and top P, influence AI outputs:
 
 By mastering these techniques and understanding how to adjust prompts effectively, you can guide AI models to generate responses that meet your specific needs and align with your business goals.
 
+![Introduction to Azure OpenAI Service](Images/image6.png)
