@@ -69,5 +69,46 @@ Applying Azure OpenAI Models to Business Scenarios
 
 - **Codex:** The Codex model family excels in coding and complex problem-solving, making it ideal for analytical and development tasks. Codex models are suited for applications requiring deep analysis and workflow automation, such as generating algorithms, writing advanced code, or helping developers streamline technical tasks. Businesses in legal, financial, or strategic sectors can use Codex for examining contracts or reports, identifying subtle differences, and aiding in decision-making processes.
 
+#### Introduction to Prompt Engineering Techniques
+
+Prompt engineering is the art of designing and refining the instructions, known as prompts, given to an AI model to achieve the outputs you want.
+
+Structuring these prompts effectively is crucial, as clear and detailed instructions help the AI produce better results, much like giving precise directions to a person.
+
+##### What is Prompt Engineering?
+
+A well-crafted prompt generally comprises three main components:
+1. **Instruction:** Directs the AI on what task to perform.
+2. **Context:** Provides background information to make the response more relevant.
+3. **Output Specification:** Defines the format or type of response expected.
+
+Why is this important? The way a prompt is phrased can significantly influence the quality of the AI's output.
+
+For instance, if you ask, "How's the company doing?" the response may be too broad, general, or vague to be useful. However, if you refine it to, "Summarize the key financial metrics from the company's Q2 earnings report," the AI is more likely to provide focused and relevant information.
+
+**Mastering prompt crafting is essential for guiding AI models to generate valuable and accurate outputs.**
 
 
+##### Techniques for Effective Prompt Engineering
+
+1. **Task Breakdown:** Splitting complex requests into clear, step-by-step instructions helps the AI generate detailed and structured responses. For example, if you’re evaluating the market for a new e-bike, you might break it down like this:
+    - Step 1: Research existing products and customer trends.
+    - Step 2: Evaluate strengths and weaknesses.
+    - Step 3: Rank opportunities.
+    - Step 4: Provide recommendations. This method ensures organized and comprehensive responses.
+2. **Chain of Thought Approach:** This technique prompts the AI to apply reasoning before providing an answer. For example, instead of asking, "What is the toughest sport?" you might say, "What is the toughest sport to master? Consider physical skills, mental toughness, and technical complexity step-by-step." This encourages the AI to think through each criterion, resulting in a more nuanced response.
+
+3. **Using Selection Marks:** Clearly separating context from the question can help the AI interpret requests more accurately. For example, by presenting context separately—“Golf is a sport where players use clubs to hit a ball into holes. The goal is to complete each hole with the fewest strokes.”—and then asking, “What is the above sentence talking about?” you ensure the AI focuses on the specific question, improving response accuracy.
+
+4. **Output Specification:** If a specific response format is needed, be explicit about it. This helps the AI present information in the desired structure, such as bullet points, tables, or JSON. For example, “List hiking trails in Los Angeles with moderate intensity. Format the output as a table with columns for trail name, intensity, duration, and address.” This guides the AI to deliver structured data.
+
+5. **System Messages:** These set the overall behavior and tone of an AI interaction, acting as a foundation for consistency. For instance, a system message could be, “I am Go, a travel enthusiast who helps users find ideal destinations. I’m upbeat and friendly. I introduce myself and ask about travel preferences and accommodations, then provide recommendations followed by questions to refine choices.” This instruction sets the tone and ensures responses align with user expectations.
+
+#### Tuning Hyperparameters
+Two hyperparameters, temperature and top P, influence AI outputs:
+
+- **Temperature** controls response randomness. A higher value (e.g., 0.7) leads to creative responses, while a lower value (e.g., 0.2) produces more focused, deterministic answers.
+
+- **Top P** limits the model's word selection to the most probable choices, ensuring coherent responses. Adjusting one parameter at a time is recommended to fine-tune the AI’s behaviour.
+
+By mastering these techniques and understanding how to adjust prompts effectively, you can guide AI models to generate responses that meet your specific needs and align with your business goals.
