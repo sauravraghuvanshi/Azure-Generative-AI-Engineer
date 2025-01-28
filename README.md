@@ -17,6 +17,8 @@ Imagine running a business with demanding tasks like responding to customers, ge
 
 The Azure OpenAI Service is built on Microsoft Azure’s scalable, secure infrastructure, ensuring businesses can deploy these AI capabilities confidently, whether for small startups or large enterprises. Security and compliance are integral to Azure, meeting regulatory standards to protect data and uphold privacy. With a pay-as-you-go model, you only pay for what you use, making advanced AI accessible to businesses of all sizes and budgets. Additionally, as a partnership between Microsoft and OpenAI, the service is continually updated with cutting-edge advancements in AI, ensuring you have access to the most powerful tools available.
 
+![Introduction to Azure OpenAI Service](Images/image.png)
+
 #### Azure OpenAI Service Components
 
 The Azure OpenAI Service offers a selection of advanced language models, including **GPT-4, GPT-3.5 Turbo, and GPT-4 Turbo**, designed to generate humanlike text based on context. These models are essential for tasks requiring natural language generation, such as automating customer service or creating content. By producing contextually relevant responses, these models can significantly enhance user experiences across diverse industries by adding a conversational layer to customer interactions.
@@ -38,6 +40,8 @@ To enhance safety, Azure’s **content filters** incorporate classification mode
 Finally, Azure’s scalable infrastructure ensures that businesses can deploy AI solutions with confidence, regardless of their size. From small startups to large enterprises, Azure’s scalable and secure environment supports reliable deployment across various operational scales, ensuring that AI-driven solutions can grow alongside business demands.
 
 By offering a comprehensive range of tools, the Azure OpenAI Service empowers businesses to build, customize, and scale intelligent applications that optimize operations and enhance user engagement across multiple use cases.
+
+![Introduction to Azure OpenAI Service](Images/image1.png)
 
 #### [Exercise: Create Azure OpenAI Service](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)
 
@@ -96,6 +100,7 @@ For instance, if you ask, "How's the company doing?" the response may be too bro
     - Step 2: Evaluate strengths and weaknesses.
     - Step 3: Rank opportunities.
     - Step 4: Provide recommendations. This method ensures organized and comprehensive responses.
+
 2. **Chain of Thought Approach:** This technique prompts the AI to apply reasoning before providing an answer. For example, instead of asking, "What is the toughest sport?" you might say, "What is the toughest sport to master? Consider physical skills, mental toughness, and technical complexity step-by-step." This encourages the AI to think through each criterion, resulting in a more nuanced response.
 
 3. **Using Selection Marks:** Clearly separating context from the question can help the AI interpret requests more accurately. For example, by presenting context separately—“Golf is a sport where players use clubs to hit a ball into holes. The goal is to complete each hole with the fewest strokes.”—and then asking, “What is the above sentence talking about?” you ensure the AI focuses on the specific question, improving response accuracy.
@@ -112,3 +117,4 @@ Two hyperparameters, temperature and top P, influence AI outputs:
 - **Top P** limits the model's word selection to the most probable choices, ensuring coherent responses. Adjusting one parameter at a time is recommended to fine-tune the AI’s behaviour.
 
 By mastering these techniques and understanding how to adjust prompts effectively, you can guide AI models to generate responses that meet your specific needs and align with your business goals.
+
