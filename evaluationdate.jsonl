@@ -1,0 +1,5 @@
+{"chat_input": "Which hotel is closest to Time Square near New York?", "truth": "The Manhattan Hotel is the closest to Times Square in New York City. It is located within an easy walk to both Times Square and Broadway", "chat_history": []}
+{"chat_input": "which city has golden gate bridge?", "truth": "The Golden Gate Bridge is located in San Francisco, California", "chat_history": []}
+{"chat_input": "On my next travel, I want to goto Casino. where can I go?", "truth": "You can visit Las Vegas, which is an internationally renowned major resort city known primarily for its gambling, shopping, fine dining, entertainment, and nightlife", "chat_history": []}
+{"chat_input": "I can only travel during June to August. Where can I travel?", "truth": "You can travel to London during June to August. This period is considered the best time to visit due to favorable weather conditions, with average temperatures ranging from 56-67°F and average precipitation of 1.9 inches", "chat_history": []}
+

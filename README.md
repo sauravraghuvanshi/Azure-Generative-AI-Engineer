@@ -126,3 +126,4 @@ Two hyperparameters, temperature and top P, influence AI outputs:
 By mastering these techniques and understanding how to adjust prompts effectively, you can guide AI models to generate responses that meet your specific needs and align with your business goals.
 
 ![Introduction to Azure OpenAI Service](Images/image6.png)
+
